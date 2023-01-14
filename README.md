@@ -1,6 +1,6 @@
 # leandrofogaca.github.io
 
-Pagina Pessoal PAra apresentar meus projetos
+Pagina Pessoal para apresentar meus projetos
 
 ## dev
 

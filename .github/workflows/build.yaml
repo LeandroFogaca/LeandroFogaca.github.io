@@ -2,22 +2,6 @@ name: Build
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      uses: actions/checkout@v3
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16
-    - name: Build web-app
-      run: |
-        npm ci
-        npm run build
-    - name: Deploy to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:

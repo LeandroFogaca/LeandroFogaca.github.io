@@ -1,9 +1,11 @@
 # leandrofogaca.github.io
 
-
+Pagina Pessoal PAra apresentar meus projetos
 
 ## dev
 
-to teste the page
 
-npm run dev
+
+```bash
+$ npm run dev
+```

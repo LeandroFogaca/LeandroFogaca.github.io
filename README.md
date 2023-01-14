@@ -9,3 +9,10 @@ Pagina Pessoal para apresentar meus projetos
 ```bash
 $ npm run dev
 ```
+
+
+buld and preview 
+```bash
+npm run build
+npm run preview
+```

@@ -1,4 +1,8 @@
 div {
     text-align: center;
-
 }
+
+.badge {
+    border-radius: 100%;
+}
+

@@ -1,11 +1,10 @@
-import Bio from "./components/Bio"
-import Name from "./components/Name"
-
+import CardProfile from "./components/CardProfile"
+import Footer from "./components/Footer"
 
 function App() {
     return <div>
-        < Name name="Leandro Fogaça" />
-        < Bio text="Essa é uma página para apresentar meus projetos e os primeiros passos de CSS" />
+        < CardProfile />
+        <Footer />
     </div>
 }
 
